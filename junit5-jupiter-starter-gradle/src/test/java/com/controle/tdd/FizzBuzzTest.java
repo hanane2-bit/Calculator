@@ -63,7 +63,7 @@ public class FizzBuzzTest {
         // Then
         assertEquals("2", result);
     }
-/*
+
     // Test paramétré (1 à 20) avec "Given-When-Then"
     @Test
     void testFizzBuzzParametrized() {
@@ -75,11 +75,11 @@ public class FizzBuzzTest {
 
         // When & Then
         for (int i = 1; i <= 20; i++) {
-            String result = FizzBuzz.de(i);
+            String result = FizzBuzz_de(i);
             // Then
             assertEquals(expectedResults[i - 1], result, "Error at i = " + i);
         }
-    }*/
+    }
 
 
 
