@@ -28,6 +28,21 @@ public class FizzBuzzTest {
         assertEquals("Fizz", result);
     }
 
+    @Test
+    void testFizzBuzz5() {
+        // Given
+        int input = 5;
+
+        // When
+        String result = FizzBuzz_de(input);
+
+        // Then
+        assertEquals("Buzz", result);
+    }
+
+
+
+
  }
 
 
