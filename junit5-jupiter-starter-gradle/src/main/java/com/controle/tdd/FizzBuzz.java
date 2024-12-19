@@ -1,8 +1,19 @@
 package com.controle.tdd;
 
 public class FizzBuzz {
-    public static String FizzBuzz_de(int num){
-        //return "";
-        return String.valueOf(num);
+    public static String FizzBuzz_de(int num) {
+
+        /*if (num % 3 == 0 && num % 5 == 0) {
+            return "FizzBuzz";
+        } else */
+        if (num % 3 == 0) {
+            return "Fizz";
+        }  /*else if (num % 5 == 0) {
+            return "Buzz";
+        } else {
+            return String.valueOf(num);
+        }
+    }*/
+        return "";
     }
 }

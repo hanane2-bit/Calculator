@@ -16,6 +16,18 @@ public class FizzBuzzTest {
      // Then
      assertEquals("1", result);
  }
+    @Test
+    void testFizzBuzz3() {
+        // Given
+        int input = 3;
+
+        // When
+        String result = FizzBuzz_de(input);
+
+        // Then
+        assertEquals("Fizz", result);
+    }
+
  }
 
 
