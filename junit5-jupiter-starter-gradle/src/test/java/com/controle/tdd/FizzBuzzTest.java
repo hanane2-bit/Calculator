@@ -40,6 +40,18 @@ public class FizzBuzzTest {
         assertEquals("Buzz", result);
     }
 
+    @Test
+    void testFizzBuzz15() {
+        // Given
+        int input = 15;
+
+        // When
+        String result = FizzBuzz_de(input);
+
+        // Then
+        assertEquals("FizzBuzz", result);
+    }
+
 
 
 
