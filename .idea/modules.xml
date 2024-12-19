@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Calculator.iml" filepath="$PROJECT_DIR$/.idea/Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FacteursPremiers/FacteursPremiers/FacteursPremiers.iml" filepath="$PROJECT_DIR$/../FacteursPremiers/FacteursPremiers/FacteursPremiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FacteursPremiers/junit5-jupiter-starter-gradle/junit5-jupiter-starter-gradl/junit5-jupiter-starter-gradl.iml" filepath="$PROJECT_DIR$/../FacteursPremiers/junit5-jupiter-starter-gradle/junit5-jupiter-starter-gradl/junit5-jupiter-starter-gradl.iml" />
     </modules>
   </component>
 </project>
