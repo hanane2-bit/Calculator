@@ -7,13 +7,13 @@ import org.junit.jupiter.api.Test;
 public class FizzBuzzTest {
  @Test
  void testFizzBuzz1() {
-     // Given
+
      int input = 1;
 
-     // When
+
      String result = FizzBuzz_de(input);
 
-     // Then
+
      assertEquals("1", result);
  }
     @Test
