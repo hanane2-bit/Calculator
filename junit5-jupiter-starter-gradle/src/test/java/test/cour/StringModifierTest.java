@@ -59,11 +59,11 @@ public class StringModifierTest {
    @Test
     public void convertir5(){
         //given
-       String str="";
+       String str=" ";
        //when
        String resultat=modifier.inverse(str);
        //then
-       assertEquals("",resultat);
+       assertEquals(" ",resultat);
    }
 
 }
