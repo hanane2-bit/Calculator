@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class StringModifierTest {
     private StringModifier modifier;
@@ -55,4 +56,14 @@ public class StringModifierTest {
        assertEquals("A",resultat);
 
    }
+   @Test
+    public void convertir5(){
+        //given
+       String str="";
+       //when
+       String resultat=modifier.inverse(str);
+       //then
+       assertEquals("",resultat);
+   }
+
 }
