@@ -45,4 +45,14 @@ public class StringModifierTest {
        assertEquals("abcdefghji",resultat);
 
    }
+   @Test
+    public void convertir4(){
+        //given
+       String str ="A";
+       //when
+       String resultat=modifier.inverse(str);
+       //then
+       assertEquals("A",resultat);
+
+   }
 }
